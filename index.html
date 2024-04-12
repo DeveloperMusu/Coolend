@@ -147,7 +147,7 @@
           if (ip_data) push('Timezone', ip_data.timezone);
           push('Timezone Offset', date.getTimezoneOffset() / 60, ' hours');
           push('Hacked', pick(hacked_statements));
-          push('Hacked By', 'SpicyDevs');
+          push('Hacked By', 'enderzombie');
           push('Current Status', "🟢");
         };
 
@@ -167,7 +167,7 @@
               return;
             }
             if (time >= 0) {
-              if (step == 0) document.title = `Hacked by SpicyDevs BOZO`;
+              if (step == 0) document.title = `Hacked by enderzombie BOZO`;
               const el = document.createElement('span');
               el.textContent = `${memes[step]}`;
               step++;
